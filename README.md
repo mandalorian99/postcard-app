@@ -6,4 +6,4 @@ Postcard is a simple php based webapp
 ~ learn how to confirm a user email that is sender .
 
 This web is hosted on free server .
-To see the live demo visit this link : - http://thecodestuffschool.com/postcard app/
+To see the live demo visit this link : - http://thecodestuffschool.000webhostapp.com/?dir=postcard%20app/
