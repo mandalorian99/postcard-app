@@ -1,0 +1,23 @@
+<html>
+<head>
+<script type="text/javascript">
+function changeImage() {
+var s = document.getElementById("postcard_select");
+var picVal = s.options[s.selectedIndex].value;
+var pictxt = s.options[s.selectedIndex].text;
+console.log("image path:"+picVal) ;
+console.log("desciption:"+pictxt) ;
+document.getElementById("pc_image").src=picVal ;
+document.getElementById("pc_image").alt=pictxt ;
+}
+</script>
+</head>
+<body>
+<select id="postcard_select" onchange="changeImage()">
+  <option value="postcard_pic/img1.jpg">pic1</option>
+  <option value="postcard_pic/img2.jpg">pic2</option>
+</select>
+
+<img id="pc_image" src="postcard_pic/img3.jpg" alt="gde">
+</body>
+</html>
