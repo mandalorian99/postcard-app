@@ -60,7 +60,7 @@ if( isset( $_POST['submit'] ) ){
  * so we fetch email id and use it later to send along with toeken in confirm mail 
  */
  $email_id = mysql_insert_id($conn) ;
- echo "<strong>email id =<strong>"$email_id ;
+ echo "<strong>email id =<strong>".$email_id ;
 
 /*
  * defining  multipart messae header for a email 
@@ -106,6 +106,7 @@ $success = mail( $from_email,$confirm_subject,$confirm_message,join( "\r\n",$hea
 		echo $confirm_message;
 	}else{
 		echo'<p><strong>There was an error sending the confirmatin mail .</strong></p>';
+		echo'<p>'.$confirm_message.'</p>';
 	}
 ?>
 </body>
