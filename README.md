@@ -24,3 +24,5 @@ To see the live demo visit this link : - https://thecodestuffschool.000webhostap
 Link to official website : www.thecodestuff.com
 
 we are social to ,catch us at -> www.facebook.com/thecodestuff .we love to hear from you (*-*)
+
+NOTE :this web app can work on php 5 and later version .It is hosted on php7 
